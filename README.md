@@ -1,19 +1,26 @@
 # BassicPersistenceExercises
 Applying persistence for simple projects in C# with Entity Framework
 
-## Gestão de Pacientes
+## Rules
+
+- Obey coding conventions
+- Use the namespace ```BassicPersistenceExercises```
+- Use the connection string ```@"server=127.0.0.1;port=3307;uid=root;pwd=;database=basicpersistence"```
+- 
+
+## Patient Management
 
 ![Patient Management](/resources/persistencia_gestao_pacientes.png)
 
-## Gestão de Pedidos
+## Order Management
 
 ![Order Management](/resources/persistencia_gestao_pedidos.png)
 
-## Gestão de Eventos
+## Event Management
 
 ![Event Management](/resources/persistencia_gestao_eventos.png)
 
-## Gestão de Tarefas
+## Task Management
 
 ![Task Management](/resources/persistencia_gestao_tarefas.png)
 
