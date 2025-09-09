@@ -1,12 +1,12 @@
 # BasicPersistenceExercises
-Applying persistence for simple projects in C# with Entity Framework
+Applying persistence for simple projects in C# with Entity Framework.
 
 ## Rules
 
 - Obey coding conventions
+- <mark>Use properties instead of attributes</mark>
 - Use the namespace ```BasicPersistenceExercises```
 - Use the connection string ```@"server=127.0.0.1;port=3307;uid=root;pwd=;database=basicpersistence"```
-- 
 
 ## Patient Management
 
