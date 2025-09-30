@@ -30,7 +30,7 @@ Applying persistence for simple projects in C# with Entity Framework.
 using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace BassicPersistenceExercises
+namespace BasicPersistenceExercises
 {
     public class Repository : DbContext
     {
