@@ -24,3 +24,26 @@ Applying persistence for simple projects in C# with Entity Framework.
 
 ![Task Management](/resources/persistencia_gestao_tarefas.png)
 
+## Repository
+
+```
+using System;
+using Microsoft.EntityFrameworkCore;
+
+namespace BassicPersistenceExercises
+{
+    public class Repository : DbContext
+    {
+        private static readonly String _connectionParams =
+        @"server=ifnmg.edu.br;port=3306;uid=root;pwd=;database=mydatabase";
+
+        public Repository() => Database.EnsureCreated();
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
+        {
+            base.OnConfiguring(optionBuilder);
+            optionBuilder.UseMySQL(_connectionParams);
+        }
+    }
+}
+```
