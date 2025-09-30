@@ -24,6 +24,10 @@ Applying persistence for simple projects in C# with Entity Framework.
 
 ![Task Management](/resources/persistencia_gestao_tarefas.png)
 
+## Appointment Management
+
+![Appointment Management](/resources/persistencia_gestao_consultas.png)
+
 ## Repository
 
 ```
